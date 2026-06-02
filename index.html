@@ -188,14 +188,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .logo { display: flex; align-items: center; gap: 12px; }
-.logo__mark {
-  width: 44px; height: 44px;
-  background: var(--red);
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
+.logo__img {
+  width: 52px; height: 52px;
+  object-fit: contain;
+  display: block;
 }
-.logo__mark svg { width: 22px; height: 22px; color: var(--white); }
+.footer .logo__img { filter: brightness(0) invert(1); }
+.logo__mark svg { display: none; }
 .logo__text {
   font-family: 'Archivo', sans-serif;
   font-size: 1.15rem;
@@ -1329,9 +1328,7 @@ a { color: inherit; text-decoration: none; }
   <div class="container">
     <div class="header__inner">
       <a href="#top" class="logo">
-        <div class="logo__mark">
-          <svg viewBox="0 0 100 100" fill="currentColor"><path d="M55 10 L20 55 L42 55 L35 90 L78 38 L55 38 Z"/></svg>
-        </div>
+        <img src="logo.jpg" alt="RSR Logo" class="logo__img" />
         <div class="logo__text">
           RSR Loodgieter
           <small>Antwerpen</small>
@@ -1861,7 +1858,7 @@ a { color: inherit; text-decoration: none; }
     <div class="footer__grid">
       <div>
         <a href="#top" class="logo">
-          <div class="logo__mark"><svg viewBox="0 0 100 100" fill="currentColor"><path d="M55 10 L20 55 L42 55 L35 90 L78 38 L55 38 Z"/></svg></div>
+          <img src="logo.jpg" alt="RSR Logo" class="logo__img" />
           <div class="logo__text">RSR Loodgieter<small>Antwerpen</small></div>
         </a>
         <p class="footer__desc">Rafaël Sequeira Rebelo — uw vaste loodgieter voor loodgieterij, verstoppingen, centrale verwarming en onderhoud van ketel of boiler.</p>
