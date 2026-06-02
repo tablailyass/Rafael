@@ -3,38 +3,35 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>RSR Loodgieter Antwerpen — Sanitair, Verwarming & Ontstoppingen | Rafaël Sequeira Rebelo</title>
-<meta name="description" content="Professionele loodgieter in Antwerpen en omstreken. Sanitair, centrale verwarming, ontstoppingen, ketelonderhoud en renovaties. ✓ Gratis offerte ✓ Snelle interventie ✓ Vakmanschap. Bel +32 498 63 50 14." />
-<meta name="keywords" content="loodgieter Antwerpen, sanitair Antwerpen, ontstopping Antwerpen, centrale verwarming, ketelonderhoud, dringende loodgieter, verwarmingsinstallatie, gratis offerte loodgieter" />
+<title>RSR Loodgieter Antwerpen — Loodgieterij, Verstoppingen, Centrale Verwarming & Ketelonderhoud</title>
+<meta name="description" content="Gespecialiseerd loodgieter in Antwerpen. Loodgieterij, ontstoppingen, centrale verwarming en onderhoud van ketel of boiler. Gratis offerte. Bel +32 498 63 50 14." />
+<meta name="keywords" content="loodgieter Antwerpen, ontstopping Antwerpen, centrale verwarming, ketelonderhoud, boileronderhoud, dringende loodgieter" />
 <meta name="theme-color" content="#D81E05" />
 
-<!-- Open Graph -->
-<meta property="og:title" content="RSR Loodgieter — Vakmanschap in Antwerpen" />
-<meta property="og:description" content="Snelle service, gratis offerte en vakmanschap waar u op kunt rekenen. 24/7 bereikbaar voor dringende interventies." />
+<meta property="og:title" content="RSR Loodgieter — Antwerpen" />
+<meta property="og:description" content="Gespecialiseerd in loodgieterij, verstoppingen, centrale verwarming en ketelonderhoud." />
 <meta property="og:type" content="website" />
 
-<!-- Fonts: Anton (display, industrial), Oswald (sub), Manrope (body) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- Favicon (simple inline lightning bolt) -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23D81E05%22/><path d=%22M55 15 L25 55 L45 55 L40 85 L75 40 L55 40 Z%22 fill=%22white%22/></svg>" />
 
 <style>
 :root {
   --red: #D81E05;
-  --red-dark: #A0140A;
-  --red-glow: rgba(216, 30, 5, 0.4);
-  --black: #0A0A0A;
-  --steel: #161616;
-  --steel-light: #222222;
-  --concrete: #3a3a3a;
-  --line: #2a2a2a;
+  --red-dark: #B0160A;
+  --red-soft: #FFEDEA;
+  --ink: #0F0F0F;
+  --ink-soft: #2A2A2A;
+  --cream: #F5F1EA;
+  --cream-dark: #EBE5DA;
+  --paper: #FAF7F1;
+  --line: #E2DCD0;
+  --muted: #6B6B6B;
   --white: #FFFFFF;
-  --off-white: #F2F2F2;
-  --muted: #9a9a9a;
-  --shadow: 0 20px 50px rgba(0,0,0,0.5);
+  --green: #25D366;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -43,23 +40,21 @@ html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
 body {
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
-  background: var(--black);
-  color: var(--white);
+  background: var(--paper);
+  color: var(--ink);
   line-height: 1.6;
   font-weight: 400;
   overflow-x: hidden;
 }
 
 img { max-width: 100%; display: block; }
-
 a { color: inherit; text-decoration: none; }
-
 ::selection { background: var(--red); color: var(--white); }
 
 /* ───────── UTILITIES ───────── */
 
 .container {
-  max-width: 1320px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -67,61 +62,60 @@ a { color: inherit; text-decoration: none; }
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 600;
+  gap: 12px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
   font-size: 0.78rem;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--red);
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .eyebrow::before {
   content: "";
-  width: 28px; height: 2px;
+  width: 32px; height: 2px;
   background: var(--red);
 }
 
 .section-title {
-  font-family: 'Anton', sans-serif;
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  line-height: 0.95;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  margin-bottom: 18px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2.2rem, 5.5vw, 4.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  margin-bottom: 20px;
 }
-
 .section-title .accent { color: var(--red); }
+.section-title .italic { font-style: italic; font-weight: 500; }
 
 .section-sub {
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   color: var(--muted);
-  max-width: 620px;
+  max-width: 640px;
   margin-bottom: 50px;
+  line-height: 1.65;
 }
 
-.section { padding: 110px 0; position: relative; }
-.section--light { background: var(--off-white); color: var(--black); }
-.section--light .section-sub { color: #555; }
-.section--steel { background: var(--steel); }
+.section { padding: 120px 0; position: relative; }
+.section--dark { background: var(--ink); color: var(--white); }
+.section--dark .section-sub { color: #aaa; }
+.section--cream { background: var(--cream); }
 
 /* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: 0.03em;
   padding: 16px 28px;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.25s ease;
   white-space: nowrap;
-  position: relative;
-  overflow: hidden;
+  border-radius: 999px;
 }
 
 .btn--red {
@@ -129,19 +123,26 @@ a { color: inherit; text-decoration: none; }
   color: var(--white);
   border-color: var(--red);
 }
-.btn--red:hover { background: var(--red-dark); border-color: var(--red-dark); transform: translateY(-2px); box-shadow: 0 12px 30px var(--red-glow); }
+.btn--red:hover { background: var(--red-dark); border-color: var(--red-dark); transform: translateY(-2px); box-shadow: 0 14px 28px rgba(216,30,5,0.3); }
 
-.btn--ghost {
-  background: transparent;
+.btn--ink {
+  background: var(--ink);
   color: var(--white);
-  border-color: var(--white);
+  border-color: var(--ink);
 }
-.btn--ghost:hover { background: var(--white); color: var(--black); transform: translateY(-2px); }
+.btn--ink:hover { transform: translateY(-2px); box-shadow: 0 14px 28px rgba(0,0,0,0.2); }
+
+.btn--outline {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.btn--outline:hover { background: var(--ink); color: var(--white); transform: translateY(-2px); }
 
 .btn--whatsapp {
-  background: #25D366;
+  background: var(--green);
   color: var(--white);
-  border-color: #25D366;
+  border-color: var(--green);
 }
 .btn--whatsapp:hover { background: #1DA851; border-color: #1DA851; transform: translateY(-2px); }
 
@@ -150,11 +151,10 @@ a { color: inherit; text-decoration: none; }
 /* ───────── TOP BAR ───────── */
 
 .topbar {
-  background: var(--black);
-  border-bottom: 1px solid var(--line);
+  background: var(--ink);
+  color: var(--cream);
   font-size: 0.82rem;
-  color: var(--muted);
-  padding: 9px 0;
+  padding: 10px 0;
 }
 .topbar .container {
   display: flex;
@@ -163,9 +163,9 @@ a { color: inherit; text-decoration: none; }
   gap: 20px;
   flex-wrap: wrap;
 }
-.topbar-item { display: inline-flex; align-items: center; gap: 8px; }
+.topbar-item { display: inline-flex; align-items: center; gap: 8px; opacity: 0.85; }
 .topbar-item svg { width: 14px; height: 14px; color: var(--red); }
-.topbar a:hover { color: var(--white); }
+.topbar a:hover { opacity: 1; color: var(--white); }
 
 /* ───────── HEADER ───────── */
 
@@ -173,11 +173,10 @@ a { color: inherit; text-decoration: none; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(10, 10, 10, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background: rgba(250, 247, 241, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
-  transition: all 0.3s ease;
 }
 
 .header__inner {
@@ -188,52 +187,47 @@ a { color: inherit; text-decoration: none; }
   gap: 24px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
+.logo { display: flex; align-items: center; gap: 12px; }
 .logo__mark {
   width: 44px; height: 44px;
   background: var(--red);
+  border-radius: 12px;
   display: grid;
   place-items: center;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
 }
-.logo__mark svg { width: 24px; height: 24px; color: var(--white); }
+.logo__mark svg { width: 22px; height: 22px; color: var(--white); }
 .logo__text {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.4rem;
-  letter-spacing: 0.05em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
   line-height: 1;
 }
 .logo__text small {
   display: block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.65rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.7rem;
   font-weight: 500;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.06em;
   color: var(--muted);
-  margin-top: 3px;
+  margin-top: 4px;
+  text-transform: uppercase;
 }
 
 .nav { display: flex; gap: 28px; }
 .nav a {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 500;
-  font-size: 0.88rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--white);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--ink);
   position: relative;
-  padding: 8px 0;
+  padding: 6px 0;
   transition: color 0.2s;
 }
 .nav a::after {
   content: "";
   position: absolute;
-  bottom: 0; left: 0;
+  bottom: -2px; left: 0;
   width: 0; height: 2px;
   background: var(--red);
   transition: width 0.25s ease;
@@ -245,10 +239,11 @@ a { color: inherit; text-decoration: none; }
 
 .menu-toggle {
   display: none;
-  background: var(--red);
+  background: var(--ink);
   border: none;
   width: 44px; height: 44px;
   cursor: pointer;
+  border-radius: 12px;
   align-items: center;
   justify-content: center;
 }
@@ -260,11 +255,8 @@ a { color: inherit; text-decoration: none; }
 }
 .menu-toggle span::before,
 .menu-toggle span::after {
-  content: "";
-  position: absolute;
-  width: 20px; height: 2px;
-  background: var(--white);
-  left: 0;
+  content: ""; position: absolute;
+  width: 20px; height: 2px; background: var(--white); left: 0;
 }
 .menu-toggle span::before { top: -6px; }
 .menu-toggle span::after { top: 6px; }
@@ -273,57 +265,48 @@ a { color: inherit; text-decoration: none; }
 
 .hero {
   position: relative;
-  min-height: 92vh;
-  display: flex;
-  align-items: center;
-  background: var(--black);
+  padding: 60px 0 0;
+  background: var(--paper);
   overflow: hidden;
-  padding: 80px 0 60px;
 }
 
-/* Diagonal stripe pattern */
+/* Soft dot pattern */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image:
-    repeating-linear-gradient(135deg, transparent 0, transparent 80px, rgba(216,30,5,0.03) 80px, rgba(216,30,5,0.03) 82px),
-    radial-gradient(ellipse at 70% 50%, rgba(216,30,5,0.15) 0%, transparent 60%);
+  background-image: radial-gradient(circle, rgba(15,15,15,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
   pointer-events: none;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 100px;
-  background: linear-gradient(to bottom, transparent, var(--black));
-  pointer-events: none;
+  mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
 }
 
 .hero__inner {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 60px;
-  align-items: center;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 50px;
+  align-items: end;
+  min-height: 80vh;
 }
 
 .hero__badge {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  background: rgba(216, 30, 5, 0.1);
-  border: 1px solid rgba(216, 30, 5, 0.3);
-  padding: 10px 18px;
-  font-family: 'Oswald', sans-serif;
+  background: var(--ink);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-family: 'Archivo', sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--red);
   margin-bottom: 32px;
+  margin-top: 60px;
   animation: fadeUp 0.7s ease both;
 }
 .hero__badge .pulse {
@@ -334,129 +317,163 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero__title {
-  font-family: 'Anton', sans-serif;
-  font-size: clamp(2.5rem, 6.5vw, 5.4rem);
-  line-height: 0.92;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2.7rem, 7vw, 5.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.035em;
   margin-bottom: 28px;
 }
 .hero__title span {
   display: inline-block;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(40px);
   animation: fadeUp 0.7s ease forwards;
 }
 .hero__title span:nth-child(1) { animation-delay: 0.1s; }
-.hero__title span:nth-child(2) { animation-delay: 0.2s; }
-.hero__title span:nth-child(3) { animation-delay: 0.3s; color: var(--red); }
-.hero__title span:nth-child(4) { animation-delay: 0.4s; }
+.hero__title span:nth-child(2) { animation-delay: 0.25s; }
+.hero__title span:nth-child(3) { animation-delay: 0.4s; }
+.hero__title .italic {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--red);
+}
 
 .hero__sub {
   font-size: 1.15rem;
-  color: #c5c5c5;
-  max-width: 540px;
-  margin-bottom: 38px;
+  color: #444;
+  max-width: 500px;
+  margin-bottom: 36px;
   opacity: 0;
   animation: fadeUp 0.7s ease 0.55s forwards;
+  line-height: 1.65;
 }
 
 .hero__cta {
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
-  margin-bottom: 50px;
+  gap: 12px;
+  margin-bottom: 60px;
   opacity: 0;
   animation: fadeUp 0.7s ease 0.7s forwards;
 }
 
-.hero__stats {
+.hero__trust {
   display: flex;
-  gap: 50px;
+  gap: 22px;
   flex-wrap: wrap;
-  padding-top: 36px;
-  border-top: 1px solid var(--line);
+  padding-bottom: 40px;
   opacity: 0;
   animation: fadeUp 0.7s ease 0.85s forwards;
 }
-.hero__stat-num {
-  font-family: 'Anton', sans-serif;
-  font-size: 2.5rem;
-  color: var(--red);
-  line-height: 1;
+.hero__trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  font-weight: 500;
 }
-.hero__stat-label {
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-top: 6px;
-}
+.hero__trust-item svg { width: 18px; height: 18px; color: var(--red); }
 
-/* Hero visual */
-.hero__visual {
+/* Hero mascot — sticks up tall from the bottom */
+.hero__mascot {
   position: relative;
-  opacity: 0;
-  animation: fadeIn 1s ease 0.4s forwards;
-}
-
-.hero__image-frame {
-  position: relative;
-  aspect-ratio: 3/4;
-  background: linear-gradient(135deg, var(--steel) 0%, var(--black) 100%);
-  border: 3px solid var(--red);
-  overflow: hidden;
-  clip-path: polygon(0 0, 100% 0, 100% 92%, 92% 100%, 0 100%);
-}
-.hero__image-frame img {
-  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   height: 100%;
-  object-fit: cover;
-  object-position: center top;
-  animation: floatGentle 6s ease-in-out infinite;
+  min-height: 70vh;
 }
 
-/* Corner accents */
-.hero__corner {
+/* Big red circle shape behind mascot */
+.hero__mascot::before {
+  content: "";
   position: absolute;
-  width: 60px; height: 60px;
-  border: 3px solid var(--red);
+  bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 105%;
+  aspect-ratio: 1;
+  background: var(--red);
+  border-radius: 50%;
+  z-index: 1;
+  animation: scaleIn 1.2s ease 0.2s both;
 }
-.hero__corner--tl { top: -15px; left: -15px; border-right: none; border-bottom: none; }
-.hero__corner--br { bottom: -15px; right: -15px; border-left: none; border-top: none; }
 
+/* Decorative orbiting badge */
 .hero__sticker {
   position: absolute;
-  top: 30px;
-  right: -30px;
-  background: var(--red);
+  top: 10%;
+  right: -10px;
+  background: var(--ink);
   color: var(--white);
-  width: 110px; height: 110px;
+  width: 130px; height: 130px;
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-family: 'Anton', sans-serif;
-  font-size: 1rem;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 0.95rem;
   text-align: center;
-  line-height: 1;
-  letter-spacing: 0.05em;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  box-shadow: 0 10px 30px var(--red-glow);
-  animation: spin 18s linear infinite;
-  z-index: 3;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+  z-index: 4;
+  animation: spin 22s linear infinite, fadeIn 1s ease 0.8s both;
 }
-.hero__sticker span {
+.hero__sticker em {
+  font-style: normal;
+  font-size: 1.7rem;
   display: block;
-  font-size: 1.6rem;
-  margin-top: 4px;
+  color: var(--red);
+  margin: 2px 0;
+}
+
+.hero__mascot-img {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  filter: drop-shadow(0 30px 50px rgba(0,0,0,0.35));
+  animation: floatGentle 5s ease-in-out infinite, fadeUp 1s ease 0.4s both;
+}
+
+/* Floating tags around mascot */
+.hero__tag {
+  position: absolute;
+  background: var(--white);
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  animation: floatTag 4s ease-in-out infinite;
+}
+.hero__tag svg { width: 14px; height: 14px; color: var(--red); }
+.hero__tag--1 { top: 28%; left: -20px; animation-delay: 0s; }
+.hero__tag--2 { top: 55%; right: -10px; animation-delay: 1.5s; }
+.hero__tag--3 { bottom: 22%; left: 5%; animation-delay: 2.5s; }
+
+@keyframes floatTag {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 /* ───────── USP STRIP ───────── */
 
 .usp {
-  background: var(--red);
-  padding: 0;
+  background: var(--ink);
+  color: var(--white);
   position: relative;
   z-index: 3;
 }
@@ -465,245 +482,280 @@ a { color: inherit; text-decoration: none; }
   grid-template-columns: repeat(4, 1fr);
 }
 .usp__item {
-  padding: 28px 24px;
-  border-right: 1px solid rgba(255,255,255,0.15);
+  padding: 32px 24px;
+  border-right: 1px solid rgba(255,255,255,0.1);
   display: flex;
   align-items: center;
-  gap: 14px;
-  font-family: 'Oswald', sans-serif;
+  gap: 16px;
+  font-family: 'Archivo', sans-serif;
   font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 0.98rem;
 }
 .usp__item:last-child { border-right: none; }
-.usp__item svg { width: 28px; height: 28px; flex-shrink: 0; }
+.usp__icon {
+  width: 44px; height: 44px;
+  background: var(--red);
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.usp__icon svg { width: 22px; height: 22px; color: var(--white); }
 
 /* ───────── SERVICES ───────── */
 
 .services {
-  background: var(--steel);
+  background: var(--paper);
   position: relative;
-}
-.services::before {
-  content: "DIENSTEN";
-  position: absolute;
-  top: 40px; right: -20px;
-  font-family: 'Anton', sans-serif;
-  font-size: 12rem;
-  color: rgba(255,255,255,0.02);
-  line-height: 1;
-  pointer-events: none;
-  letter-spacing: 0.05em;
-}
-
-.services__header {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: end;
-  gap: 40px;
-  margin-bottom: 60px;
 }
 
 .services__grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-  background: var(--line);
-  border: 1px solid var(--line);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .service-card {
-  background: var(--steel);
-  padding: 40px 32px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 50px 40px;
   position: relative;
-  transition: all 0.35s ease;
-  cursor: default;
+  transition: all 0.4s ease;
   overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
 }
+
 .service-card::before {
   content: "";
   position: absolute;
-  bottom: 0; left: 0;
-  width: 100%; height: 3px;
-  background: var(--red);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.35s ease;
+  inset: 0;
+  background: linear-gradient(135deg, var(--red) 0%, var(--red-dark) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
 }
-.service-card:hover { background: var(--steel-light); }
-.service-card:hover::before { transform: scaleX(1); }
-.service-card:hover .service-card__icon { color: var(--red); transform: translateY(-4px); }
+.service-card > * { position: relative; z-index: 1; }
+
+.service-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--red);
+  box-shadow: 0 25px 50px rgba(216,30,5,0.18);
+}
+.service-card:hover::before { opacity: 1; }
+.service-card:hover .service-card__num,
+.service-card:hover .service-card__title,
+.service-card:hover .service-card__desc,
+.service-card:hover .service-card__icon { color: var(--white); }
+.service-card:hover .service-card__icon { background: rgba(255,255,255,0.15); }
+.service-card:hover .service-card__arrow { color: var(--white); transform: translateX(8px); }
 
 .service-card__num {
-  font-family: 'Anton', sans-serif;
-  font-size: 0.95rem;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 0.85rem;
   color: var(--red);
-  letter-spacing: 0.1em;
-  margin-bottom: 24px;
+  letter-spacing: 0.15em;
+  margin-bottom: 28px;
+  transition: color 0.4s;
 }
 
 .service-card__icon {
-  color: var(--white);
-  margin-bottom: 24px;
-  transition: all 0.35s ease;
+  width: 64px; height: 64px;
+  background: var(--cream);
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  color: var(--ink);
+  margin-bottom: 28px;
+  transition: all 0.4s ease;
 }
-.service-card__icon svg { width: 44px; height: 44px; }
+.service-card__icon svg { width: 30px; height: 30px; }
 
 .service-card__title {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.55rem;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-  line-height: 1.05;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 1.75rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+  line-height: 1.1;
+  transition: color 0.4s;
 }
 
 .service-card__desc {
   color: var(--muted);
-  font-size: 0.94rem;
+  font-size: 0.98rem;
   line-height: 1.6;
+  margin-bottom: 24px;
+  transition: color 0.4s;
+  flex-grow: 1;
+}
+
+.service-card__arrow {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--red);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.4s ease;
 }
 
 /* ───────── WHY ───────── */
 
 .why {
-  background: var(--black);
+  background: var(--cream);
   position: relative;
 }
 
 .why__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 40px;
+  gap: 24px;
+  margin-top: 50px;
 }
 
 .why-card {
-  border: 1px solid var(--line);
+  background: var(--white);
   padding: 40px 32px;
+  border-radius: 20px;
   position: relative;
   transition: all 0.3s ease;
+  border: 1px solid var(--line);
 }
-.why-card:hover { border-color: var(--red); transform: translateY(-4px); }
+.why-card:hover { transform: translateY(-6px); box-shadow: 0 25px 50px rgba(0,0,0,0.08); }
 
-.why-card__badge {
-  position: absolute;
-  top: -1px; left: -1px;
-  background: var(--red);
-  color: var(--white);
-  padding: 8px 16px;
-  font-family: 'Anton', sans-serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.1em;
+.why-card__num {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--red);
+  line-height: 1;
+  margin-bottom: 20px;
+  letter-spacing: -0.03em;
 }
 
 .why-card__title {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  margin-top: 50px;
-  margin-bottom: 14px;
-  letter-spacing: 0.02em;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
 }
 
 .why-card__desc {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.96rem;
+  line-height: 1.6;
 }
 
-/* ───────── PORTFOLIO ───────── */
+/* ───────── PROJECTS ───────── */
 
-.portfolio {
-  background: var(--steel);
-}
+.projects { background: var(--paper); }
 
-.portfolio__placeholder-banner {
-  background: rgba(216, 30, 5, 0.08);
+.projects__banner {
+  background: var(--red-soft);
   border: 1px dashed rgba(216, 30, 5, 0.4);
-  padding: 12px 20px;
-  color: #ff9c8d;
-  font-size: 0.85rem;
-  margin-bottom: 30px;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 0.05em;
+  padding: 14px 22px;
+  color: var(--red-dark);
+  font-size: 0.88rem;
+  margin-bottom: 36px;
+  border-radius: 12px;
+  font-weight: 500;
 }
 
-.portfolio__grid {
+.projects__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
 .project {
-  background: var(--black);
+  background: var(--white);
   border: 1px solid var(--line);
   overflow: hidden;
   transition: all 0.3s ease;
-  position: relative;
+  border-radius: 18px;
 }
-.project:hover { transform: translateY(-6px); border-color: var(--red); }
+.project:hover { transform: translateY(-6px); border-color: var(--red); box-shadow: 0 25px 50px rgba(0,0,0,0.08); }
 
 .project__visual {
   aspect-ratio: 4/3;
-  background: linear-gradient(135deg, var(--steel-light), var(--steel));
+  background: linear-gradient(135deg, var(--cream-dark), var(--cream));
   display: grid;
   place-items: center;
   position: relative;
   overflow: hidden;
-  border-bottom: 3px solid var(--red);
+  border-bottom: 1px solid var(--line);
 }
 .project__visual svg {
-  width: 70px; height: 70px;
-  color: var(--concrete);
+  width: 64px; height: 64px;
+  color: var(--ink);
+  opacity: 0.25;
   transition: all 0.4s ease;
 }
-.project:hover .project__visual svg { color: var(--red); transform: scale(1.1); }
+.project:hover .project__visual svg { color: var(--red); opacity: 0.7; transform: scale(1.1); }
 
 .project__tag {
   position: absolute;
-  top: 12px; left: 12px;
-  background: var(--red);
+  top: 14px; left: 14px;
+  background: var(--ink);
   color: var(--white);
-  padding: 4px 12px;
-  font-family: 'Oswald', sans-serif;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
   font-size: 0.7rem;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
-.project__body { padding: 24px; }
+.project__body { padding: 26px; }
 .project__title {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.3rem;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 1.2rem;
   margin-bottom: 8px;
+  letter-spacing: -0.01em;
 }
-.project__desc { color: var(--muted); font-size: 0.9rem; }
+.project__desc { color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
 
 /* ───────── REVIEWS ───────── */
 
-.reviews { background: var(--off-white); color: var(--black); }
-.reviews .section-title { color: var(--black); }
-.reviews .section-sub { color: #555; }
+.reviews { background: var(--ink); color: var(--white); }
+.reviews .section-title { color: var(--white); }
+
+.reviews__banner {
+  background: rgba(216, 30, 5, 0.12);
+  border: 1px dashed rgba(216, 30, 5, 0.5);
+  padding: 14px 22px;
+  color: #ffb5ab;
+  font-size: 0.88rem;
+  margin-bottom: 36px;
+  border-radius: 12px;
+}
 
 .reviews__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .review {
-  background: var(--white);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
   padding: 36px 30px;
-  border-top: 3px solid var(--red);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  border-radius: 20px;
   position: relative;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
-.review:hover { transform: translateY(-6px); }
+.review:hover { transform: translateY(-6px); border-color: rgba(216,30,5,0.4); background: rgba(255,255,255,0.05); }
 
 .review__stars {
   color: #FFB400;
@@ -715,171 +767,177 @@ a { color: inherit; text-decoration: none; }
 .review__quote {
   font-size: 1rem;
   line-height: 1.65;
-  color: #333;
+  color: #ddd;
   margin-bottom: 26px;
+  font-style: italic;
 }
 
 .review__author {
   display: flex;
   align-items: center;
   gap: 14px;
-  padding-top: 20px;
-  border-top: 1px solid #e5e5e5;
+  padding-top: 22px;
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 .review__avatar {
-  width: 44px; height: 44px;
+  width: 46px; height: 46px;
   background: var(--red);
   color: var(--white);
+  border-radius: 50%;
   display: grid;
   place-items: center;
-  font-family: 'Anton', sans-serif;
-  font-size: 1.05rem;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
 }
 .review__name {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 0.98rem;
 }
 .review__city {
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   color: #888;
 }
 
 /* ───────── ABOUT ───────── */
 
-.about {
-  background: var(--black);
-  position: relative;
-  overflow: hidden;
-}
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0; right: 0;
-  width: 50%; height: 100%;
-  background: linear-gradient(135deg, transparent 0%, rgba(216,30,5,0.04) 100%);
-}
+.about { background: var(--cream); position: relative; overflow: hidden; }
 
 .about__inner {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 80px;
   align-items: center;
-  position: relative;
 }
 
 .about__visual {
   position: relative;
   aspect-ratio: 1;
-  background: var(--steel);
-  border: 3px solid var(--red);
-  overflow: hidden;
-  clip-path: polygon(8% 0, 100% 0, 100% 92%, 92% 100%, 0 100%, 0 8%);
+}
+.about__visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--red);
+  border-radius: 50%;
 }
 .about__visual img {
-  width: 100%; height: 100%;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
+  border-radius: 50%;
 }
 .about__visual-badge {
   position: absolute;
-  bottom: 20px; left: 20px;
-  background: var(--red);
+  bottom: 4%;
+  right: 0;
+  background: var(--ink);
   color: var(--white);
-  padding: 18px 22px;
-  font-family: 'Anton', sans-serif;
-  font-size: 0.95rem;
-  letter-spacing: 0.05em;
-  line-height: 1.2;
-  text-transform: uppercase;
+  padding: 20px 26px;
+  border-radius: 18px;
+  font-family: 'Archivo', sans-serif;
+  z-index: 3;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
-.about__visual-badge strong { font-size: 1.6rem; display: block; }
+.about__visual-badge strong { font-size: 1.8rem; display: block; font-weight: 900; color: var(--red); }
+.about__visual-badge span { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .about__quote {
-  background: var(--steel);
-  border-left: 3px solid var(--red);
+  background: var(--white);
+  border-left: 4px solid var(--red);
   padding: 24px 28px;
   font-style: italic;
-  color: #ddd;
-  margin: 30px 0;
-  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 28px 0;
+  font-size: 1.02rem;
+  border-radius: 0 14px 14px 0;
+  line-height: 1.6;
 }
 
-.about__points { list-style: none; margin-top: 24px; }
+.about__points { list-style: none; margin-top: 28px; }
 .about__points li {
   display: flex;
   align-items: flex-start;
   gap: 14px;
-  padding: 12px 0;
+  padding: 14px 0;
   border-bottom: 1px solid var(--line);
-  color: #ccc;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
 }
 .about__points li:last-child { border-bottom: none; }
 .about__points svg { width: 22px; height: 22px; color: var(--red); flex-shrink: 0; margin-top: 2px; }
 
 /* ───────── CONTACT ───────── */
 
-.contact { background: var(--steel); }
+.contact { background: var(--paper); }
 
 .contact__grid {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
-  gap: 60px;
+  gap: 50px;
   margin-top: 40px;
 }
 
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-}
+.contact-info { display: flex; flex-direction: column; gap: 16px; }
 
 .contact-info__item {
   display: flex;
   gap: 18px;
   padding: 22px;
-  background: var(--black);
-  border-left: 3px solid var(--red);
-  transition: transform 0.25s ease;
+  background: var(--white);
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  transition: all 0.25s ease;
+  align-items: center;
 }
-.contact-info__item:hover { transform: translateX(6px); }
+.contact-info__item:hover { transform: translateX(6px); border-color: var(--red); }
 
 .contact-info__icon {
-  width: 48px; height: 48px;
+  width: 50px; height: 50px;
   background: var(--red);
+  border-radius: 14px;
   display: grid;
   place-items: center;
   flex-shrink: 0;
 }
-.contact-info__icon svg { width: 24px; height: 24px; color: var(--white); }
+.contact-info__icon svg { width: 22px; height: 22px; color: var(--white); }
 
 .contact-info__label {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 0.78rem;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 4px;
+  font-weight: 600;
 }
 
 .contact-info__value {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.25rem;
-  letter-spacing: 0.03em;
-  color: var(--white);
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
-.contact-info__value a:hover { color: var(--red); }
 
 /* Form */
-.form { background: var(--black); padding: 44px 40px; border-top: 3px solid var(--red); }
+.form {
+  background: var(--white);
+  padding: 44px 40px;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+}
 
 .form__title {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.7rem;
-  text-transform: uppercase;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
   margin-bottom: 8px;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 }
 .form__sub { color: var(--muted); font-size: 0.95rem; margin-bottom: 28px; }
 
@@ -893,109 +951,78 @@ a { color: inherit; text-decoration: none; }
 
 .form__label {
   display: block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
   margin-bottom: 8px;
-  color: var(--muted);
+  color: var(--ink);
 }
 
 .form__input,
 .form__textarea,
 .form__select {
   width: 100%;
-  background: var(--steel);
+  background: var(--paper);
   border: 1px solid var(--line);
-  color: var(--white);
+  color: var(--ink);
   padding: 14px 16px;
   font-family: 'Manrope', sans-serif;
   font-size: 0.95rem;
   transition: all 0.2s;
+  border-radius: 12px;
 }
 .form__input:focus,
 .form__textarea:focus,
 .form__select:focus {
   outline: none;
   border-color: var(--red);
-  background: #1c1c1c;
+  background: var(--white);
+  box-shadow: 0 0 0 3px rgba(216,30,5,0.1);
 }
-.form__textarea { min-height: 130px; resize: vertical; font-family: inherit; }
+.form__textarea { min-height: 130px; resize: vertical; }
 
 .form__submit {
   width: 100%;
   justify-content: center;
   margin-top: 8px;
   padding: 18px;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .form__note {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--muted);
   margin-top: 14px;
   text-align: center;
 }
 
-/* ───────── LARGE PROJECTS ───────── */
-
-.bigproject {
-  background: var(--black);
-  position: relative;
-  overflow: hidden;
-}
-.bigproject::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 50%;
-  width: 2px; height: 80px;
-  background: var(--red);
-  transform: translateX(-50%);
-}
-
-.bigproject__header { text-align: center; margin-bottom: 50px; }
-.bigproject__header .section-sub { margin: 0 auto 20px; }
-
-.bigproject .form {
-  max-width: 880px;
-  margin: 0 auto;
-  background: var(--steel);
-}
-
-.form__upload {
-  border: 2px dashed var(--line);
-  padding: 28px;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.2s;
-  background: var(--black);
-}
-.form__upload:hover { border-color: var(--red); background: #0f0f0f; }
-.form__upload input { display: none; }
-.form__upload svg { width: 36px; height: 36px; color: var(--red); margin: 0 auto 10px; }
-.form__upload-text { font-family: 'Oswald', sans-serif; letter-spacing: 0.1em; font-size: 0.88rem; }
-.form__upload-files { margin-top: 12px; font-size: 0.85rem; color: var(--muted); }
-
 /* ───────── FAQ ───────── */
 
-.faq { background: var(--steel); }
+.faq { background: var(--cream); }
 .faq__list { max-width: 880px; margin: 40px auto 0; }
 
 .faq__item {
-  border-bottom: 1px solid var(--line);
-  padding: 0;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  transition: all 0.3s;
 }
+.faq__item:hover { border-color: var(--red); }
+
 .faq__question {
   width: 100%;
   background: none;
   border: none;
-  color: var(--white);
-  font-family: 'Oswald', sans-serif;
+  color: var(--ink);
+  font-family: 'Archivo', sans-serif;
   font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   text-align: left;
-  padding: 22px 60px 22px 0;
+  padding: 22px 60px 22px 26px;
   cursor: pointer;
   position: relative;
   transition: color 0.2s;
@@ -1004,9 +1031,10 @@ a { color: inherit; text-decoration: none; }
 .faq__question::after {
   content: "+";
   position: absolute;
-  right: 0; top: 50%;
+  right: 26px; top: 50%;
   transform: translateY(-50%);
-  font-family: 'Anton', sans-serif;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 300;
   font-size: 1.8rem;
   color: var(--red);
   transition: transform 0.3s;
@@ -1018,30 +1046,63 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
   transition: max-height 0.4s ease, padding 0.3s ease;
   color: var(--muted);
+  padding: 0 26px;
 }
 .faq__item.open .faq__answer {
   max-height: 240px;
-  padding: 0 0 24px;
+  padding: 0 26px 24px;
 }
+
+/* ───────── CTA BAND ───────── */
+
+.cta-band {
+  background: var(--red);
+  color: var(--white);
+  padding: 70px 0;
+  position: relative;
+  overflow: hidden;
+}
+.cta-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.08) 0%, transparent 50%),
+                    radial-gradient(circle at 80% 80%, rgba(255,255,255,0.06) 0%, transparent 40%);
+  pointer-events: none;
+}
+.cta-band__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.4fr auto;
+  gap: 40px;
+  align-items: center;
+}
+.cta-band__title {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  margin-bottom: 12px;
+}
+.cta-band__sub { font-size: 1.05rem; opacity: 0.92; }
+
+.cta-band__btns { display: flex; gap: 12px; flex-wrap: wrap; }
+.cta-band .btn--ink { border-color: var(--ink); }
+.cta-band .btn--outline { color: var(--white); border-color: var(--white); }
+.cta-band .btn--outline:hover { background: var(--white); color: var(--red); }
 
 /* ───────── MAP ───────── */
 
 .map-section { padding: 0; height: 380px; position: relative; }
-.map-section iframe { width: 100%; height: 100%; border: 0; filter: grayscale(40%) contrast(1.05); }
-.map-section::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; height: 4px;
-  background: var(--red);
-  z-index: 2;
-}
+.map-section iframe { width: 100%; height: 100%; border: 0; }
 
 /* ───────── FOOTER ───────── */
 
 .footer {
-  background: var(--black);
+  background: var(--ink);
+  color: var(--white);
   padding: 80px 0 0;
-  border-top: 1px solid var(--line);
 }
 
 .footer__grid {
@@ -1051,46 +1112,39 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 60px;
 }
 
-.footer__brand .logo { margin-bottom: 20px; }
+.footer .logo__text { color: var(--white); }
+.footer .logo__text small { color: #888; }
 
 .footer__desc {
-  color: var(--muted);
-  font-size: 0.93rem;
+  color: #aaa;
+  font-size: 0.94rem;
   line-height: 1.7;
-  margin-bottom: 22px;
+  margin: 22px 0;
 }
 
 .footer__heading {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.05rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 22px;
-  position: relative;
-  padding-bottom: 12px;
-}
-.footer__heading::after {
-  content: "";
-  position: absolute;
-  bottom: 0; left: 0;
-  width: 30px; height: 2px;
-  background: var(--red);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 1.02rem;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
 }
 
 .footer__list { list-style: none; }
 .footer__list li { margin-bottom: 12px; }
 .footer__list a {
-  color: var(--muted);
-  font-size: 0.92rem;
-  transition: color 0.2s;
+  color: #aaa;
+  font-size: 0.93rem;
+  transition: all 0.2s;
 }
 .footer__list a:hover { color: var(--red); padding-left: 6px; }
 
 .footer__contact-row {
-  display: flex; gap: 12px;
+  display: flex;
+  gap: 12px;
   font-size: 0.93rem;
-  color: var(--muted);
-  margin-bottom: 14px;
+  color: #aaa;
+  margin-bottom: 16px;
   align-items: flex-start;
 }
 .footer__contact-row svg { width: 18px; height: 18px; color: var(--red); flex-shrink: 0; margin-top: 3px; }
@@ -1098,30 +1152,30 @@ a { color: inherit; text-decoration: none; }
 
 .footer__bottom {
   padding: 24px 0;
-  border-top: 1px solid var(--line);
+  border-top: 1px solid rgba(255,255,255,0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
   font-size: 0.82rem;
-  color: var(--muted);
+  color: #888;
 }
 .footer__bottom a:hover { color: var(--red); }
 
-/* ───────── FLOATING ELEMENTS ───────── */
+/* ───────── FLOATING ───────── */
 
 .float-whatsapp {
   position: fixed;
   bottom: 24px;
   right: 24px;
   width: 60px; height: 60px;
-  background: #25D366;
+  background: var(--green);
   border-radius: 50%;
   display: grid;
   place-items: center;
   z-index: 90;
-  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.45);
   transition: transform 0.25s;
 }
 .float-whatsapp:hover { transform: scale(1.1); }
@@ -1145,18 +1199,18 @@ a { color: inherit; text-decoration: none; }
   padding: 16px;
   text-align: center;
   z-index: 95;
-  font-family: 'Anton', sans-serif;
-  font-size: 1.1rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  box-shadow: 0 -6px 20px rgba(0,0,0,0.3);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
 }
 .mobile-call svg { width: 20px; height: 20px; vertical-align: middle; margin-right: 8px; }
 
 /* ───────── ANIMATIONS ───────── */
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(30px); }
+  from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
 }
 @keyframes fadeIn {
@@ -1173,14 +1227,17 @@ a { color: inherit; text-decoration: none; }
 }
 @keyframes floatGentle {
   0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+  50% { transform: translateY(-12px); }
 }
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+@keyframes scaleIn {
+  from { transform: translateX(-50%) scale(0); opacity: 0; }
+  to { transform: translateX(-50%) scale(1); opacity: 1; }
+}
 
-/* Scroll reveal */
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -1198,53 +1255,56 @@ a { color: inherit; text-decoration: none; }
     flex-direction: column;
     position: absolute;
     top: 100%; left: 0; right: 0;
-    background: var(--black);
+    background: var(--paper);
     padding: 24px;
     border-top: 1px solid var(--line);
     gap: 16px;
   }
-  .hero__inner { grid-template-columns: 1fr; gap: 40px; }
-  .hero__visual { max-width: 420px; margin: 0 auto; }
+  .hero__inner { grid-template-columns: 1fr; gap: 0; min-height: auto; }
+  .hero__badge { margin-top: 30px; }
+  .hero__mascot { max-width: 460px; margin: 30px auto 0; min-height: auto; }
+  .hero__mascot::before { width: 100%; }
+  .hero__sticker { width: 100px; height: 100px; font-size: 0.78rem; top: 5%; right: 0; }
+  .hero__sticker em { font-size: 1.3rem; }
   .usp__grid { grid-template-columns: repeat(2, 1fr); }
   .usp__item:nth-child(2) { border-right: none; }
-  .usp__item:nth-child(1), .usp__item:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,0.15); }
-  .services__grid { grid-template-columns: repeat(2, 1fr); }
+  .usp__item:nth-child(1), .usp__item:nth-child(2) { border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .services__grid { grid-template-columns: 1fr; }
   .why__grid { grid-template-columns: 1fr; }
-  .portfolio__grid { grid-template-columns: repeat(2, 1fr); }
+  .projects__grid { grid-template-columns: repeat(2, 1fr); }
   .reviews__grid { grid-template-columns: 1fr; }
-  .about__inner { grid-template-columns: 1fr; }
+  .about__inner { grid-template-columns: 1fr; gap: 50px; }
+  .about__visual { max-width: 400px; margin: 0 auto; }
   .contact__grid { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: repeat(2, 1fr); gap: 40px; }
-  .services__header { grid-template-columns: 1fr; }
-  .header__cta .btn:not(.btn--mobile-hide) { padding: 12px 18px; font-size: 0.82rem; }
+  .cta-band__inner { grid-template-columns: 1fr; text-align: left; }
+  .header__cta .btn--mobile-hide { display: none; }
 }
 
 @media (max-width: 640px) {
   .section { padding: 80px 0; }
-  .hero { padding: 50px 0 100px; min-height: auto; }
+  .hero { padding: 40px 0 0; }
   .topbar { display: none; }
-  .btn--mobile-hide { display: none; }
   .usp__grid { grid-template-columns: 1fr; }
-  .usp__item { border-right: none !important; border-bottom: 1px solid rgba(255,255,255,0.15); }
+  .usp__item { border-right: none !important; border-bottom: 1px solid rgba(255,255,255,0.1); }
   .usp__item:last-child { border-bottom: none; }
-  .services__grid { grid-template-columns: 1fr; }
-  .portfolio__grid { grid-template-columns: 1fr; }
-  .footer__grid { grid-template-columns: 1fr; gap: 40px; }
-  .form { padding: 30px 24px; }
+  .projects__grid { grid-template-columns: 1fr; }
+  .footer__grid { grid-template-columns: 1fr; gap: 36px; }
+  .form { padding: 32px 24px; }
   .form__row { grid-template-columns: 1fr; }
-  .hero__stats { gap: 30px; }
-  .hero__stat-num { font-size: 2rem; }
-  .hero__sticker { width: 90px; height: 90px; top: 10px; right: -10px; font-size: 0.8rem; }
-  .hero__sticker span { font-size: 1.2rem; }
+  .hero__tag { font-size: 0.7rem; padding: 8px 12px; }
+  .hero__tag--1 { left: 0; }
+  .hero__tag--2 { right: 0; }
   body { padding-bottom: 60px; }
   .mobile-call { display: block; }
   .float-whatsapp { bottom: 76px; }
+  .service-card { padding: 36px 28px; min-height: auto; }
 }
 </style>
 </head>
 <body>
 
-<!-- ═══════════ TOP BAR ═══════════ -->
+<!-- TOP BAR -->
 <div class="topbar">
   <div class="container">
     <div style="display:flex; gap:24px; flex-wrap:wrap;">
@@ -1254,19 +1314,17 @@ a { color: inherit; text-decoration: none; }
       </span>
       <span class="topbar-item">
         <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        Ma–Vr 07:30 – 18:00 · Za op afspraak · 24/7 nooddienst
+        24/7 nooddienst beschikbaar
       </span>
     </div>
-    <div style="display:flex; gap:18px;">
-      <a href="tel:+32498635014" class="topbar-item">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        +32 498 63 50 14
-      </a>
-    </div>
+    <a href="tel:+32498635014" class="topbar-item">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+      +32 498 63 50 14
+    </a>
   </div>
 </div>
 
-<!-- ═══════════ HEADER ═══════════ -->
+<!-- HEADER -->
 <header class="header">
   <div class="container">
     <div class="header__inner">
@@ -1275,23 +1333,22 @@ a { color: inherit; text-decoration: none; }
           <svg viewBox="0 0 100 100" fill="currentColor"><path d="M55 10 L20 55 L42 55 L35 90 L78 38 L55 38 Z"/></svg>
         </div>
         <div class="logo__text">
-          RSR LOODGIETER
-          <small>Antwerpen · Vakmanschap</small>
+          RSR Loodgieter
+          <small>Antwerpen</small>
         </div>
       </a>
 
       <nav class="nav" id="nav">
         <a href="#diensten">Diensten</a>
         <a href="#waarom">Waarom RSR</a>
-        <a href="#projecten">Projecten</a>
-        <a href="#reviews">Reviews</a>
+        <a href="#projecten">Werk</a>
         <a href="#over">Over Ons</a>
         <a href="#contact">Contact</a>
       </nav>
 
       <div class="header__cta">
         <a href="https://wa.me/32498635014" class="btn btn--whatsapp btn--mobile-hide" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.821 11.821 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.821 11.821 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z"/></svg>
           WhatsApp
         </a>
         <a href="tel:+32498635014" class="btn btn--red">
@@ -1304,229 +1361,212 @@ a { color: inherit; text-decoration: none; }
   </div>
 </header>
 
-<!-- ═══════════ HERO ═══════════ -->
+<!-- HERO -->
 <section class="hero" id="top">
   <div class="container">
     <div class="hero__inner">
       <div>
         <div class="hero__badge">
           <span class="pulse"></span>
-          24/7 NOODDIENST — ANTWERPEN
+          24/7 NOODDIENST · ANTWERPEN
         </div>
         <h1 class="hero__title">
-          <span>PROFESSIONELE</span>
-          <span>LOODGIETER</span>
-          <span>VOOR SANITAIR,</span>
-          <span>VERWARMING & ONTSTOPPING</span>
+          <span>Uw loodgieter</span>
+          <span>voor <em class="italic">echt</em></span>
+          <span>vakwerk.</span>
         </h1>
         <p class="hero__sub">
-          Snelle service, gratis offerte en vakmanschap waarop u kunt vertrouwen. Rafaël Sequeira Rebelo is uw vaste loodgieter in Antwerpen — van kleine herstelling tot complete renovatie.
+          Gespecialiseerd in loodgieterij, ontstoppingen, centrale verwarming en onderhoud van ketel en boiler. Eerlijke prijzen, duidelijke afspraken, proper afgewerkt.
         </p>
         <div class="hero__cta">
           <a href="tel:+32498635014" class="btn btn--red">
             <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
             Bel Direct
           </a>
-          <a href="#contact" class="btn btn--ghost">
-            Gratis Offerte
-          </a>
+          <a href="#contact" class="btn btn--outline">Gratis Offerte</a>
           <a href="https://wa.me/32498635014" class="btn btn--whatsapp" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.821 11.821 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.821 11.821 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24z"/></svg>
             WhatsApp
           </a>
         </div>
-        <div class="hero__stats">
-          <div>
-            <div class="hero__stat-num">15+</div>
-            <div class="hero__stat-label">Jaar Ervaring</div>
+        <div class="hero__trust">
+          <div class="hero__trust-item">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            Gratis offerte
           </div>
-          <div>
-            <div class="hero__stat-num">1500+</div>
-            <div class="hero__stat-label">Klussen Geklaard</div>
+          <div class="hero__trust-item">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            Snelle interventie
           </div>
-          <div>
-            <div class="hero__stat-num">24/7</div>
-            <div class="hero__stat-label">Bereikbaar</div>
+          <div class="hero__trust-item">
+            <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            Eerlijke prijzen
           </div>
         </div>
       </div>
 
-      <div class="hero__visual">
-        <div class="hero__corner hero__corner--tl"></div>
-        <div class="hero__corner hero__corner--br"></div>
+      <div class="hero__mascot">
         <div class="hero__sticker">
-          GRATIS<span>OFFERTE</span>
+          GRATIS<em>OFFERTE</em>BIJ ELKE KLUS
         </div>
-        <div class="hero__image-frame">
-          <img src="mascotte.png" alt="Rafaël — uw vaste loodgieter in Antwerpen" />
+        <div class="hero__tag hero__tag--1">
+          <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          Snelle Interventie
         </div>
+        <div class="hero__tag hero__tag--2">
+          <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+          15+ Jaar Ervaring
+        </div>
+        <div class="hero__tag hero__tag--3">
+          <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          24/7 Bereikbaar
+        </div>
+        <img src="mascotte.png" alt="Rafaël, uw vaste loodgieter in Antwerpen" class="hero__mascot-img" />
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ USP STRIP ═══════════ -->
+<!-- USP STRIP -->
 <section class="usp">
   <div class="container">
     <div class="usp__grid">
       <div class="usp__item">
-        <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <div class="usp__icon"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
         Gratis Offerte
       </div>
       <div class="usp__item">
-        <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-        Reactie Binnen 24u
+        <div class="usp__icon"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+        Snel Ter Plaatse
       </div>
       <div class="usp__item">
-        <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <div class="usp__icon"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2"/></svg></div>
         Vrijblijvend Bezoek
       </div>
       <div class="usp__item">
-        <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        Transparante Prijzen
+        <div class="usp__icon"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        Eerlijke Prijzen
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ SERVICES ═══════════ -->
+<!-- SERVICES -->
 <section class="section services" id="diensten">
   <div class="container">
-    <div class="services__header reveal">
-      <div>
-        <div class="eyebrow">Wat wij doen</div>
-        <h2 class="section-title">Onze <span class="accent">Diensten</span></h2>
-        <p class="section-sub">Van een lekkende kraan tot een complete badkamerrenovatie — wij pakken het aan met de juiste tools en zonder verrassingen achteraf.</p>
-      </div>
+    <div class="reveal" style="text-align:center; max-width:760px; margin:0 auto 60px;">
+      <div class="eyebrow" style="justify-content:center;">Onze 4 specialiteiten</div>
+      <h2 class="section-title">Waar wij in <span class="accent">uitblinken</span></h2>
+      <p class="section-sub" style="margin-left:auto; margin-right:auto;">
+        Geen mooie praatjes, geen zaken die we er even bij doen. Wij doen vier dingen — en die doen we goed.
+      </p>
     </div>
 
     <div class="services__grid">
       <article class="service-card reveal">
-        <div class="service-card__num">01 / Loodgieter</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg></div>
-        <h3 class="service-card__title">Loodgieterwerken</h3>
-        <p class="service-card__desc">Lekken, leidingwerk, kranen, waterleiding — alle klassieke loodgieterswerken vakkundig opgelost.</p>
+        <div class="service-card__num">01 — SPECIALITEIT</div>
+        <div class="service-card__icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+        </div>
+        <h3 class="service-card__title">Loodgieterij</h3>
+        <p class="service-card__desc">Lekkages, leidingwerk, kranen, waterleidingen, aansluitingen — alle klassieke loodgieterswerken vakkundig en proper opgelost.</p>
+        <span class="service-card__arrow">Vraag offerte →</span>
       </article>
 
       <article class="service-card reveal">
-        <div class="service-card__num">02 / Sanitair</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>
-        <h3 class="service-card__title">Sanitair</h3>
-        <p class="service-card__desc">Plaatsing en herstelling van toiletten, douches, lavabo's, badkuipen en kraanwerk — strak en duurzaam.</p>
+        <div class="service-card__num">02 — SPECIALITEIT</div>
+        <div class="service-card__icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <h3 class="service-card__title">Verstoppingen</h3>
+        <p class="service-card__desc">Verstopte afvoer, riool of toilet? Snel ter plaatse met de juiste apparatuur. Proper werk, duidelijke prijs, garantie op het resultaat.</p>
+        <span class="service-card__arrow">Vraag offerte →</span>
       </article>
 
       <article class="service-card reveal">
-        <div class="service-card__num">03 / Ontstopping</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
-        <h3 class="service-card__title">Ontstoppingen</h3>
-        <p class="service-card__desc">Verstopte afvoer, riool of toilet? Wij komen snel ter plaatse met de juiste apparatuur — proper werk gegarandeerd.</p>
-      </article>
-
-      <article class="service-card reveal">
-        <div class="service-card__num">04 / Verwarming</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.24 17 7.172 18.04 9.37 19 11 19 14a7.96 7.96 0 01-1.343 4.657z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/></svg></div>
+        <div class="service-card__num">03 — SPECIALITEIT</div>
+        <div class="service-card__icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.24 17 7.172 18.04 9.37 19 11 19 14a7.96 7.96 0 01-1.343 4.657z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/></svg>
+        </div>
         <h3 class="service-card__title">Centrale Verwarming</h3>
-        <p class="service-card__desc">Installatie, vervanging en herstelling van radiatoren, vloerverwarming en complete CV-systemen.</p>
+        <p class="service-card__desc">Installatie, vervanging en herstellingen van radiatoren en CV-systemen. Van een lekkende radiator tot een volledig nieuwe installatie.</p>
+        <span class="service-card__arrow">Vraag offerte →</span>
       </article>
 
       <article class="service-card reveal">
-        <div class="service-card__num">05 / Ketel</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
-        <h3 class="service-card__title">Ketelonderhoud</h3>
-        <p class="service-card__desc">Jaarlijks onderhoud, attesten en herstellingen van condensatieketels — veilig, conform en zuinig.</p>
+        <div class="service-card__num">04 — SPECIALITEIT</div>
+        <div class="service-card__icon">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <h3 class="service-card__title">Onderhoud Ketel & Boiler</h3>
+        <p class="service-card__desc">Jaarlijks onderhoud, attesten, herstellingen en vervangingen van uw ketel of boiler. Veilig, conform de wetgeving en zuinig.</p>
+        <span class="service-card__arrow">Vraag offerte →</span>
       </article>
-
-      <article class="service-card reveal">
-        <div class="service-card__num">06 / Renovatie</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"/></svg></div>
-        <h3 class="service-card__title">Renovatieprojecten</h3>
-        <p class="service-card__desc">Badkamer- en sanitairrenovaties van A tot Z — met heldere planning en strak afgewerkt resultaat.</p>
-      </article>
-
-      <article class="service-card reveal">
-        <div class="service-card__num">07 / Spoed</div>
-        <div class="service-card__icon"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg></div>
-        <h3 class="service-card__title">Dringende Interventies</h3>
-        <p class="service-card__desc">Lekkage, panne, geen warm water? Bel 24/7 — wij komen zo snel mogelijk ter plaatse.</p>
-      </article>
-    </div>
-
-    <div style="text-align:center; margin-top:50px;" class="reveal">
-      <a href="#contact" class="btn btn--red">Bespreek Uw Project →</a>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ WHY ═══════════ -->
+<!-- WHY -->
 <section class="section why" id="waarom">
   <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">Waarom RSR</div>
-      <h2 class="section-title">Geen Verrassingen.<br /><span class="accent">Wel Vakmanschap.</span></h2>
-      <p class="section-sub">U weet vooraf wat u krijgt: een correcte prijs, een correcte afspraak en proper afgewerkt werk.</p>
+    <div class="reveal" style="text-align:center; max-width:760px; margin:0 auto;">
+      <div class="eyebrow" style="justify-content:center;">Waarom RSR</div>
+      <h2 class="section-title">Geen verrassingen.<br /><span class="italic">Wel</span> <span class="accent">vakmanschap.</span></h2>
+      <p class="section-sub" style="margin-left:auto; margin-right:auto;">
+        U weet vooraf wat u krijgt: een correcte prijs, een correcte afspraak en proper afgewerkt werk.
+      </p>
     </div>
 
     <div class="why__grid">
       <div class="why-card reveal">
-        <div class="why-card__badge">01</div>
-        <h3 class="why-card__title">Gratis & Vrijblijvend</h3>
-        <p class="why-card__desc">Een gratis plaatsbezoek en een duidelijke offerte vooraf. U beslist pas daarna. Geen drukverkoop, geen kleine lettertjes.</p>
+        <div class="why-card__num">01</div>
+        <h3 class="why-card__title">Gratis & vrijblijvend</h3>
+        <p class="why-card__desc">Plaatsbezoek en offerte zonder enige verplichting. U beslist pas daarna of u akkoord bent.</p>
       </div>
       <div class="why-card reveal">
-        <div class="why-card__badge">02</div>
-        <h3 class="why-card__title">Snelle Reactie</h3>
-        <p class="why-card__desc">Antwoord binnen 24 uur op iedere aanvraag. Bij dringende interventies komen we waar mogelijk dezelfde dag nog.</p>
+        <div class="why-card__num">02</div>
+        <h3 class="why-card__title">Snelle reactie</h3>
+        <p class="why-card__desc">Antwoord binnen 24 uur. Bij dringende interventies komen we waar mogelijk dezelfde dag nog langs.</p>
       </div>
       <div class="why-card reveal">
-        <div class="why-card__badge">03</div>
-        <h3 class="why-card__title">Eerlijke Prijzen</h3>
-        <p class="why-card__desc">Transparante tarieven, duidelijke uurprijzen en alle materialen op de offerte. Bekijk altijd het werk vooraf — geen geheimen.</p>
+        <div class="why-card__num">03</div>
+        <h3 class="why-card__title">Eerlijke prijzen</h3>
+        <p class="why-card__desc">Transparante tarieven en alle materialen op de offerte. Geen kleine lettertjes, geen verrassingen.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ PORTFOLIO ═══════════ -->
-<section class="section portfolio" id="projecten">
+<!-- PROJECTS -->
+<section class="section projects" id="projecten">
   <div class="container">
     <div class="reveal">
-      <div class="eyebrow">Recente projecten</div>
-      <h2 class="section-title">Werk <span class="accent">In Beeld</span></h2>
-      <p class="section-sub">Een greep uit gerealiseerde projecten in Antwerpen en omstreken.</p>
-      <div class="portfolio__placeholder-banner">⚠ Plaatsvulling — vervang door echte projectfoto's en omschrijvingen. Voor- en na-foto's werken het beste voor het opbouwen van vertrouwen.</div>
+      <div class="eyebrow">Recent werk</div>
+      <h2 class="section-title">Werk <span class="accent">in beeld</span></h2>
+      <p class="section-sub">Een greep uit recente klussen in Antwerpen en omstreken.</p>
+      <div class="projects__banner">⚠ Plaatsvulling — vervang door echte foto's en omschrijvingen van Rafaëls werk.</div>
     </div>
 
-    <div class="portfolio__grid">
+    <div class="projects__grid">
       <article class="project reveal">
         <div class="project__visual">
-          <span class="project__tag">Sanitair</span>
-          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
-        </div>
-        <div class="project__body">
-          <h3 class="project__title">Badkamerrenovatie Berchem</h3>
-          <p class="project__desc">Complete renovatie van een gezinsbadkamer met inloopdouche, dubbele lavabo en vloerverwarming.</p>
-        </div>
-      </article>
-
-      <article class="project reveal">
-        <div class="project__visual">
-          <span class="project__tag">Verwarming</span>
-          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.24 17 7.172 18.04 9.37 19 11 19 14a7.96 7.96 0 01-1.343 4.657z"/></svg>
-        </div>
-        <div class="project__body">
-          <h3 class="project__title">Ketelvervanging Borgerhout</h3>
-          <p class="project__desc">Vervanging van oude gasketel door condensatieketel met hogere efficiëntie en nieuw thermostaatsysteem.</p>
-        </div>
-      </article>
-
-      <article class="project reveal">
-        <div class="project__visual">
-          <span class="project__tag">Ontstopping</span>
+          <span class="project__tag">Verstopping</span>
           <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         </div>
         <div class="project__body">
-          <h3 class="project__title">Riooltest & Ontstopping Deurne</h3>
-          <p class="project__desc">Dringende interventie bij een verstopte hoofdleiding met camera-inspectie en hogedrukreiniging.</p>
+          <h3 class="project__title">Ontstopping rioolleiding Deurne</h3>
+          <p class="project__desc">Dringende interventie bij een verstopte hoofdleiding — camera-inspectie en hogedrukreiniging.</p>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__visual">
+          <span class="project__tag">Ketel</span>
+          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35"/></svg>
+        </div>
+        <div class="project__body">
+          <h3 class="project__title">Ketelvervanging Borgerhout</h3>
+          <p class="project__desc">Oude gasketel vervangen door condensatieketel met hogere efficiëntie en nieuwe thermostaat.</p>
         </div>
       </article>
 
@@ -1536,50 +1576,60 @@ a { color: inherit; text-decoration: none; }
           <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547"/></svg>
         </div>
         <div class="project__body">
-          <h3 class="project__title">Leidingrenovatie Antwerpen Centrum</h3>
-          <p class="project__desc">Vernieuwing van verouderde waterleidingen in een herenhuis — net afgewerkt, geen sporen.</p>
+          <h3 class="project__title">Leidingvernieuwing Antwerpen Centrum</h3>
+          <p class="project__desc">Vervanging van verouderde waterleidingen in een herenhuis. Net afgewerkt, geen sporen.</p>
         </div>
       </article>
 
       <article class="project reveal">
         <div class="project__visual">
-          <span class="project__tag">Sanitair</span>
-          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16"/></svg>
+          <span class="project__tag">Verwarming</span>
+          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.24 17 7.172 18.04 9.37 19 11 19 14a7.96 7.96 0 01-1.343 4.657z"/></svg>
         </div>
         <div class="project__body">
-          <h3 class="project__title">Toiletinstallatie Merksem</h3>
-          <p class="project__desc">Plaatsing hangtoilet met inbouwreservoir, inclusief leidingaanpassingen en tegelwerk-aansluiting.</p>
+          <h3 class="project__title">Radiatoren plaatsen Berchem</h3>
+          <p class="project__desc">Bijplaatsen en aansluiten van nieuwe radiatoren in een rijwoning, inclusief leidingwerk.</p>
         </div>
       </article>
 
       <article class="project reveal">
         <div class="project__visual">
-          <span class="project__tag">Renovatie</span>
-          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6"/></svg>
+          <span class="project__tag">Boiler</span>
+          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37"/></svg>
         </div>
         <div class="project__body">
-          <h3 class="project__title">Volledige Renovatie Mortsel</h3>
-          <p class="project__desc">Sanitair en verwarming bij rijwoningrenovatie — van eerste schets tot eindoplevering.</p>
+          <h3 class="project__title">Boileronderhoud Merksem</h3>
+          <p class="project__desc">Jaarlijkse onderhoudsbeurt en herstelling van een gasboiler met afgifte van attest.</p>
+        </div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__visual">
+          <span class="project__tag">Loodgieter</span>
+          <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517"/></svg>
+        </div>
+        <div class="project__body">
+          <h3 class="project__title">Lekkage opgelost Mortsel</h3>
+          <p class="project__desc">Snelle interventie bij een lekkende leiding achter de muur, vakkundig hersteld.</p>
         </div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ REVIEWS ═══════════ -->
-<section class="section reviews" id="reviews">
+<!-- REVIEWS -->
+<section class="section reviews">
   <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">Klanten Aan Het Woord</div>
-      <h2 class="section-title">Reviews & <span class="accent">Beoordelingen</span></h2>
-      <p class="section-sub">Wat klanten zeggen over de samenwerking met Rafaël.</p>
-      <div class="portfolio__placeholder-banner" style="color:#a82a18; background:#fde8e5; border-color:#f5b8b0;">⚠ Plaatsvulling — vervang door echte klantreviews. Tip: vraag tevreden klanten om een Google review en laat die hier weergeven.</div>
+    <div class="reveal" style="text-align:center; max-width:760px; margin:0 auto;">
+      <div class="eyebrow" style="justify-content:center;">Klanten aan het woord</div>
+      <h2 class="section-title">Wat klanten <span class="accent">zeggen</span></h2>
+      <div class="reviews__banner" style="text-align:left;">⚠ Plaatsvulling — vervang door echte klantreviews. Tip: vraag tevreden klanten een Google review.</div>
     </div>
 
     <div class="reviews__grid">
       <div class="review reveal">
         <div class="review__stars">★★★★★</div>
-        <p class="review__quote">"Rafaël kwam dezelfde dag nog langs voor een lekkende leiding. Snel, proper en correct geprijsd. Echt een aanrader voor wie een betrouwbare loodgieter zoekt."</p>
+        <p class="review__quote">"Rafaël kwam dezelfde dag nog langs voor een lekkende leiding. Snel, proper en correct geprijsd. Echt een aanrader."</p>
         <div class="review__author">
           <div class="review__avatar">SD</div>
           <div>
@@ -1591,19 +1641,7 @@ a { color: inherit; text-decoration: none; }
 
       <div class="review reveal">
         <div class="review__stars">★★★★★</div>
-        <p class="review__quote">"Vakman in hart en nieren. Onze badkamer is volledig vernieuwd en de afwerking is perfect. Hij denkt mee, communiceert duidelijk en zijn prijs klopt met de offerte."</p>
-        <div class="review__author">
-          <div class="review__avatar">MV</div>
-          <div>
-            <div class="review__name">Mathieu V.</div>
-            <div class="review__city">Mortsel</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="review reveal">
-        <div class="review__stars">★★★★★</div>
-        <p class="review__quote">"Onze ketel begaf het in volle winter. Binnen het uur ter plaatse, probleem dezelfde dag opgelost en het onderhoud meteen erbij. Geen gedoe, eerlijk advies."</p>
+        <p class="review__quote">"Onze ketel begaf het in volle winter. Binnen het uur ter plaatse, probleem dezelfde dag opgelost en het onderhoud meteen erbij. Eerlijk advies."</p>
         <div class="review__author">
           <div class="review__avatar">EJ</div>
           <div>
@@ -1612,47 +1650,59 @@ a { color: inherit; text-decoration: none; }
           </div>
         </div>
       </div>
+
+      <div class="review reveal">
+        <div class="review__stars">★★★★★</div>
+        <p class="review__quote">"Verstopte afvoer in de keuken, andere loodgieters konden pas volgende week. Rafaël kwam binnen het uur. Top service en correcte prijs."</p>
+        <div class="review__author">
+          <div class="review__avatar">MV</div>
+          <div>
+            <div class="review__name">Mathieu V.</div>
+            <div class="review__city">Mortsel</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ ABOUT ═══════════ -->
+<!-- ABOUT -->
 <section class="section about" id="over">
   <div class="container">
     <div class="about__inner">
       <div class="about__visual reveal">
-        <img src="mascotte.png" alt="Rafaël aan het werk" />
+        <img src="mascotte.png" alt="Rafaël" />
         <div class="about__visual-badge">
-          <strong>15+ JAAR</strong>
-          Ervaring in het vak
+          <strong>15+</strong>
+          <span>Jaar ervaring</span>
         </div>
       </div>
 
       <div class="reveal">
         <div class="eyebrow">Over RSR</div>
-        <h2 class="section-title">Uw <span class="accent">Vaste Vakman</span><br />In Antwerpen</h2>
-        <p style="color:#ccc; font-size:1.05rem; margin-bottom:18px;">
+        <h2 class="section-title">Uw vaste<br /><span class="accent">vakman in</span> Antwerpen</h2>
+        <p style="color:var(--ink-soft); font-size:1.05rem; margin-bottom:18px;">
           Rafaël Sequeira Rebelo is een ervaren loodgieter met een passie voor degelijk werk. Geen halfslachtige oplossingen, geen onverwachte rekeningen achteraf — alleen vakkundig werk, duidelijk gecommuniceerd.
         </p>
-        <p class="about__quote">
+        <div class="about__quote">
           "Een goede loodgieter zie je niet — die merk je doordat alles gewoon werkt. Daar streef ik elke dag naar."
-        </p>
+        </div>
         <ul class="about__points">
           <li>
             <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-            <span><strong style="color:#fff">Correcte afspraken</strong> — wij komen op tijd en doen wat we zeggen.</span>
+            <span><strong style="color:var(--ink)">Correcte afspraken</strong> — wij komen op tijd en doen wat we zeggen.</span>
           </li>
           <li>
             <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-            <span><strong style="color:#fff">Kwaliteitsmaterialen</strong> — alleen merken waar we zelf achter staan.</span>
+            <span><strong style="color:var(--ink)">Kwaliteitsmaterialen</strong> — alleen merken waar we zelf achter staan.</span>
           </li>
           <li>
             <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-            <span><strong style="color:#fff">Persoonlijke service</strong> — u krijgt altijd dezelfde vakman aan de deur.</span>
+            <span><strong style="color:var(--ink)">Persoonlijke service</strong> — u krijgt altijd dezelfde vakman aan de deur.</span>
           </li>
           <li>
             <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-            <span><strong style="color:#fff">Net afgewerkt</strong> — wij laten alles proper achter, geen rommel.</span>
+            <span><strong style="color:var(--ink)">Net afgewerkt</strong> — wij laten alles proper achter, geen rommel.</span>
           </li>
         </ul>
       </div>
@@ -1660,13 +1710,32 @@ a { color: inherit; text-decoration: none; }
   </div>
 </section>
 
-<!-- ═══════════ CONTACT ═══════════ -->
+<!-- CTA BAND -->
+<section class="cta-band">
+  <div class="container">
+    <div class="cta-band__inner">
+      <div>
+        <h2 class="cta-band__title">Een dringende klus?<br />Bel direct — wij staan klaar.</h2>
+        <p class="cta-band__sub">24/7 bereikbaar voor lekkages, verstoppingen en pannes met uw verwarming.</p>
+      </div>
+      <div class="cta-band__btns">
+        <a href="tel:+32498635014" class="btn btn--ink">
+          <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          +32 498 63 50 14
+        </a>
+        <a href="https://wa.me/32498635014" class="btn btn--outline" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
 <section class="section contact" id="contact">
   <div class="container">
-    <div class="reveal">
-      <div class="eyebrow">Contact</div>
-      <h2 class="section-title">Vraag Uw <span class="accent">Gratis Offerte</span></h2>
-      <p class="section-sub">Vul het formulier in, bel of stuur een WhatsApp. Wij antwoorden binnen 24 uur — vaak veel sneller.</p>
+    <div class="reveal" style="text-align:center; max-width:760px; margin:0 auto;">
+      <div class="eyebrow" style="justify-content:center;">Contact</div>
+      <h2 class="section-title">Vraag uw <span class="accent">gratis offerte</span></h2>
+      <p class="section-sub" style="margin-left:auto; margin-right:auto;">Vul het formulier in, bel of stuur een WhatsApp. Wij reageren binnen 24 uur — vaak veel sneller.</p>
     </div>
 
     <div class="contact__grid">
@@ -1705,8 +1774,8 @@ a { color: inherit; text-decoration: none; }
       </div>
 
       <form class="form reveal" id="contactForm" onsubmit="return handleContact(event)">
-        <h3 class="form__title">Snel Offerte Aanvragen</h3>
-        <p class="form__sub">Vul kort uw gegevens in — wij contacteren u binnen 24 uur.</p>
+        <h3 class="form__title">Snel offerte aanvragen</h3>
+        <p class="form__sub">Vul kort uw gegevens in — wij reageren binnen 24 uur.</p>
 
         <div class="form__row">
           <div>
@@ -1725,149 +1794,91 @@ a { color: inherit; text-decoration: none; }
         </div>
 
         <div class="form__field">
-          <label class="form__label">Type Werk</label>
+          <label class="form__label">Type werk</label>
           <select name="dienst" class="form__select" required>
             <option value="">Kies een dienst...</option>
-            <option>Loodgieterwerken</option>
-            <option>Sanitair</option>
-            <option>Ontstopping</option>
+            <option>Loodgieterij</option>
+            <option>Verstopping / ontstopping</option>
             <option>Centrale verwarming</option>
-            <option>Ketelonderhoud</option>
-            <option>Renovatie</option>
+            <option>Onderhoud ketel of boiler</option>
             <option>Dringende interventie</option>
-            <option>Andere / iets anders</option>
+            <option>Iets anders</option>
           </select>
         </div>
 
         <div class="form__field">
-          <label class="form__label">Korte Omschrijving</label>
+          <label class="form__label">Korte omschrijving</label>
           <textarea name="bericht" class="form__textarea" placeholder="Vertel kort waar het over gaat..." required></textarea>
         </div>
 
         <button type="submit" class="btn btn--red form__submit">Verstuur Aanvraag →</button>
-        <p class="form__note">Of bel direct op <a href="tel:+32498635014" style="color:#fff; border-bottom:1px solid var(--red);">+32 498 63 50 14</a></p>
+        <p class="form__note">Of bel direct op <a href="tel:+32498635014" style="color:var(--ink); border-bottom:2px solid var(--red); font-weight:600;">+32 498 63 50 14</a></p>
       </form>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ BIG PROJECTS ═══════════ -->
-<section class="section bigproject" id="grote-projecten">
-  <div class="container">
-    <div class="bigproject__header reveal">
-      <div class="eyebrow" style="justify-content:center; margin-left:auto; margin-right:auto;">Grote projecten</div>
-      <h2 class="section-title">Renovatie of <span class="accent">Volledig Project?</span></h2>
-      <p class="section-sub" style="margin-left:auto; margin-right:auto;">Voor grotere werken zoals badkamerrenovaties of verwarmingsinstallaties — bezorg ons hier de details, foto's en uw budgetindicatie.</p>
-    </div>
-
-    <form class="form reveal" id="projectForm" onsubmit="return handleProject(event)">
-      <div class="form__row">
-        <div><label class="form__label">Naam</label><input type="text" name="naam" class="form__input" required /></div>
-        <div><label class="form__label">Telefoon</label><input type="tel" name="telefoon" class="form__input" required /></div>
-      </div>
-      <div class="form__row">
-        <div><label class="form__label">E-mail</label><input type="email" name="email" class="form__input" required /></div>
-        <div><label class="form__label">Adres Werken</label><input type="text" name="adres" class="form__input" placeholder="Straat, nr, postcode" required /></div>
-      </div>
-      <div class="form__field">
-        <label class="form__label">Beschrijving van de werken</label>
-        <textarea name="beschrijving" class="form__textarea" placeholder="Beschrijf zo concreet mogelijk wat u wenst..." required></textarea>
-      </div>
-      <div class="form__row">
-        <div>
-          <label class="form__label">Gewenste Startdatum</label>
-          <input type="date" name="datum" class="form__input" />
-        </div>
-        <div>
-          <label class="form__label">Budgetindicatie</label>
-          <select name="budget" class="form__select">
-            <option value="">Selecteer...</option>
-            <option>Onder € 2.500</option>
-            <option>€ 2.500 – € 5.000</option>
-            <option>€ 5.000 – € 10.000</option>
-            <option>€ 10.000 – € 25.000</option>
-            <option>€ 25.000+</option>
-            <option>Nog niet bepaald</option>
-          </select>
-        </div>
-      </div>
-      <div class="form__field">
-        <label class="form__label">Foto's van de locatie (optioneel, max 5)</label>
-        <label class="form__upload">
-          <input type="file" name="fotos" multiple accept="image/*" id="fotoUpload" />
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-          <div class="form__upload-text">Klik om foto's te uploaden</div>
-          <div class="form__upload-files" id="fileNames">Geen bestanden geselecteerd</div>
-        </label>
-      </div>
-      <button type="submit" class="btn btn--red form__submit">Project Indienen →</button>
-      <p class="form__note">Wij bekijken uw aanvraag en plannen een vrijblijvend plaatsbezoek.</p>
-    </form>
-  </div>
-</section>
-
-<!-- ═══════════ FAQ ═══════════ -->
+<!-- FAQ -->
 <section class="section faq">
   <div class="container">
-    <div class="reveal" style="text-align:center;">
-      <div class="eyebrow" style="justify-content:center; margin-left:auto; margin-right:auto;">Veelgestelde vragen</div>
-      <h2 class="section-title">Even <span class="accent">Verduidelijken</span></h2>
+    <div class="reveal" style="text-align:center; max-width:760px; margin:0 auto;">
+      <div class="eyebrow" style="justify-content:center;">Veelgestelde vragen</div>
+      <h2 class="section-title">Even <span class="accent">verduidelijken</span></h2>
     </div>
     <div class="faq__list reveal">
       <div class="faq__item">
         <button class="faq__question">Werken jullie in heel Antwerpen?</button>
-        <div class="faq__answer"><p>Ja, wij werken in heel Antwerpen en omstreken: Berchem, Borgerhout, Deurne, Mortsel, Merksem, Wilrijk, Hoboken, Ekeren en alle aangrenzende gemeenten.</p></div>
+        <div class="faq__answer"><p>Ja, in heel Antwerpen en omstreken: Berchem, Borgerhout, Deurne, Mortsel, Merksem, Wilrijk, Hoboken, Ekeren en alle aangrenzende gemeenten.</p></div>
       </div>
       <div class="faq__item">
         <button class="faq__question">Is een offerte echt gratis?</button>
-        <div class="faq__answer"><p>Volledig gratis en vrijblijvend. Wij komen langs, bekijken het werk en bezorgen u een duidelijke prijs. U beslist pas daarna of u akkoord bent.</p></div>
+        <div class="faq__answer"><p>Volledig gratis en vrijblijvend. We komen langs, bekijken het werk en bezorgen u een duidelijke prijs. U beslist pas daarna.</p></div>
       </div>
       <div class="faq__item">
         <button class="faq__question">Hoe snel zijn jullie ter plaatse bij een spoedgeval?</button>
-        <div class="faq__answer"><p>Voor dringende interventies (lekkages, ontstoppingen, geen warm water) doen we ons uiterste best om dezelfde dag nog ter plaatse te zijn. Bel meteen op +32 498 63 50 14.</p></div>
+        <div class="faq__answer"><p>Voor dringende interventies (lekkages, verstoppingen, geen warm water) doen we ons uiterste best om dezelfde dag nog ter plaatse te zijn. Bel meteen op +32 498 63 50 14.</p></div>
       </div>
       <div class="faq__item">
-        <button class="faq__question">Geven jullie garantie op de werken?</button>
-        <div class="faq__answer"><p>Ja. Op materialen geldt de fabrieksgarantie, op het uitgevoerde werk krijgt u een garantie zoals vermeld in de offerte. We werken alleen met materialen waar we zelf achter staan.</p></div>
+        <button class="faq__question">Doen jullie ook renovaties of badkamers?</button>
+        <div class="faq__answer"><p>Nee, daar zijn wij niet in gespecialiseerd. Wij focussen ons op wat we écht goed kunnen: loodgieterij, ontstoppingen, centrale verwarming en onderhoud van ketel of boiler.</p></div>
       </div>
       <div class="faq__item">
         <button class="faq__question">Welke betaalmogelijkheden bieden jullie?</button>
-        <div class="faq__answer"><p>Bankoverschrijving en cash. Bij grotere renovatieprojecten werken we met een voorschot en gespreide betaling — alles duidelijk vermeld in de offerte.</p></div>
+        <div class="faq__answer"><p>Bankoverschrijving en cash. Alle prijzen staan duidelijk vermeld in de offerte — geen verrassingen.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════ MAP ═══════════ -->
+<!-- MAP -->
 <section class="map-section">
   <iframe src="https://maps.google.com/maps?q=Antwerpen&t=&z=11&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Werkgebied Antwerpen"></iframe>
 </section>
 
-<!-- ═══════════ FOOTER ═══════════ -->
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container">
     <div class="footer__grid">
-      <div class="footer__brand">
+      <div>
         <a href="#top" class="logo">
           <div class="logo__mark"><svg viewBox="0 0 100 100" fill="currentColor"><path d="M55 10 L20 55 L42 55 L35 90 L78 38 L55 38 Z"/></svg></div>
-          <div class="logo__text">RSR LOODGIETER<small>Antwerpen · Vakmanschap</small></div>
+          <div class="logo__text">RSR Loodgieter<small>Antwerpen</small></div>
         </a>
-        <p class="footer__desc">Rafaël Sequeira Rebelo — uw vaste loodgieter voor sanitair, verwarming, ontstoppingen en renovaties in Antwerpen en omstreken.</p>
+        <p class="footer__desc">Rafaël Sequeira Rebelo — uw vaste loodgieter voor loodgieterij, verstoppingen, centrale verwarming en onderhoud van ketel of boiler.</p>
         <div style="display:flex; gap:10px;">
-          <a href="tel:+32498635014" class="btn btn--red" style="padding:12px 18px; font-size:0.82rem;">Bel Nu</a>
-          <a href="https://wa.me/32498635014" class="btn btn--whatsapp" style="padding:12px 18px; font-size:0.82rem;" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="tel:+32498635014" class="btn btn--red" style="padding:12px 20px; font-size:0.85rem;">Bel Nu</a>
+          <a href="https://wa.me/32498635014" class="btn btn--whatsapp" style="padding:12px 20px; font-size:0.85rem;" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
 
       <div>
         <div class="footer__heading">Diensten</div>
         <ul class="footer__list">
-          <li><a href="#diensten">Loodgieterwerken</a></li>
-          <li><a href="#diensten">Sanitair</a></li>
-          <li><a href="#diensten">Ontstoppingen</a></li>
+          <li><a href="#diensten">Loodgieterij</a></li>
+          <li><a href="#diensten">Verstoppingen</a></li>
           <li><a href="#diensten">Centrale verwarming</a></li>
-          <li><a href="#diensten">Ketelonderhoud</a></li>
-          <li><a href="#diensten">Renovaties</a></li>
+          <li><a href="#diensten">Onderhoud ketel</a></li>
+          <li><a href="#diensten">Onderhoud boiler</a></li>
           <li><a href="#diensten">Dringende interventies</a></li>
         </ul>
       </div>
@@ -1880,8 +1891,7 @@ a { color: inherit; text-decoration: none; }
           <li><a href="#">Borgerhout</a></li>
           <li><a href="#">Deurne</a></li>
           <li><a href="#">Mortsel</a></li>
-          <li><a href="#">Merksem</a></li>
-          <li><a href="#">Wilrijk · Hoboken · Ekeren</a></li>
+          <li><a href="#">Merksem · Wilrijk · Ekeren</a></li>
         </ul>
       </div>
 
@@ -1891,7 +1901,7 @@ a { color: inherit; text-decoration: none; }
           <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           <div>
             <strong>+32 498 63 50 14</strong><br />
-            <span style="font-size:0.85rem;">24/7 bereikbaar voor spoed</span>
+            <span style="font-size:0.85rem;">24/7 bereikbaar</span>
           </div>
         </div>
         <div class="footer__contact-row">
@@ -1918,7 +1928,7 @@ a { color: inherit; text-decoration: none; }
   </div>
 </footer>
 
-<!-- ═══════════ FLOATING ELEMENTS ═══════════ -->
+<!-- FLOATING -->
 <a href="https://wa.me/32498635014" class="float-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.821 11.821 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/></svg>
 </a>
@@ -1929,16 +1939,13 @@ a { color: inherit; text-decoration: none; }
 </a>
 
 <script>
-// Year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Mobile menu toggle
 const menuToggle = document.getElementById('menuToggle');
 const nav = document.getElementById('nav');
 menuToggle?.addEventListener('click', () => nav.classList.toggle('open'));
 nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
 
-// Scroll reveal
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -1949,7 +1956,6 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-// FAQ accordion
 document.querySelectorAll('.faq__item').forEach(item => {
   item.querySelector('.faq__question').addEventListener('click', () => {
     const isOpen = item.classList.contains('open');
@@ -1958,21 +1964,6 @@ document.querySelectorAll('.faq__item').forEach(item => {
   });
 });
 
-// File upload display
-const fotoUpload = document.getElementById('fotoUpload');
-const fileNames = document.getElementById('fileNames');
-fotoUpload?.addEventListener('change', () => {
-  const files = fotoUpload.files;
-  if (files.length === 0) {
-    fileNames.textContent = 'Geen bestanden geselecteerd';
-  } else if (files.length === 1) {
-    fileNames.textContent = files[0].name;
-  } else {
-    fileNames.textContent = `${files.length} bestanden geselecteerd`;
-  }
-});
-
-// Form handlers — sends via mailto for now. Replace with Formspree/Netlify Forms for production.
 function handleContact(e) {
   e.preventDefault();
   const f = e.target;
@@ -1980,29 +1971,6 @@ function handleContact(e) {
   window.location.href = `mailto:info@rsr-loodgieter.be?subject=Offerte aanvraag - ${f.naam.value}&body=${body}`;
   return false;
 }
-
-function handleProject(e) {
-  e.preventDefault();
-  const f = e.target;
-  const body = `Naam: ${f.naam.value}%0D%0ATelefoon: ${f.telefoon.value}%0D%0AE-mail: ${f.email.value}%0D%0AAdres: ${f.adres.value}%0D%0AGewenste datum: ${f.datum.value}%0D%0ABudget: ${f.budget.value}%0D%0A%0D%0ABeschrijving:%0D%0A${f.beschrijving.value}`;
-  window.location.href = `mailto:info@rsr-loodgieter.be?subject=Project aanvraag - ${f.naam.value}&body=${body}`;
-  return false;
-}
-
-// Header shrink on scroll
-let lastScroll = 0;
-window.addEventListener('scroll', () => {
-  const header = document.querySelector('.header');
-  const scroll = window.scrollY;
-  if (scroll > 80) {
-    header.style.padding = '0';
-    header.style.boxShadow = '0 4px 20px rgba(0,0,0,0.5)';
-  } else {
-    header.style.padding = '';
-    header.style.boxShadow = '';
-  }
-  lastScroll = scroll;
-});
 </script>
 
 </body>
